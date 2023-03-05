@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int x;
+	cout << "Enter the year to check either it is leap or not!" << endl;
+	cin >> x;
+	{
+		if (x % 4==0)
+		cout << "Yes! This is a Leap Year " << endl;
+	else
+		cout << "Ohh! This is not a leap year " << endl;
+	}
+	cout <<"\n\n*********** Zahoor Elahy***********\n" << endl;
+	system("pause");
+	return 0;
+}
